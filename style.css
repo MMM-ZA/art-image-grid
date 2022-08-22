@@ -43,12 +43,16 @@ h2 {
   color: white;
   font-weight: bolder;
   text-shadow: 0 0 10px rgba(0,0,0,0.7);
+  font-size: 30px;
 
 }
 
 .card:hover {
  transform: scale(1.2);
  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+ color: #F4BA13;
+ font-size: 40px;
+
 }
 
 .content {
