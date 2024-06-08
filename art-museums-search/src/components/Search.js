@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const SearchBox = ({ onSearch }) => {
+const Search = ({ onSearch }) => {
   const [query, setQuery] = useState('');
 
   const handleInputChange = (event) => {
@@ -24,4 +24,4 @@ const SearchBox = ({ onSearch }) => {
   );
 };
 
-export default SearchBox;
+export default Search;
