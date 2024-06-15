@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 // import Cards from './components/Cards';
-import Slider from './components/Slider';
+import Cards from './components/Cards';
 
 function App() {
   return (
     <div className="App">
-      {/* <Cards /> */}
-      <Slider/>
+      <Cards />
+      {/* <Slider/> */}
     </div>
   );
 }
