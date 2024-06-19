@@ -1,15 +1,15 @@
 import React from 'react';
-import './App.css';
-// import Cards from './components/Cards';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Cards from './components/Cards';
+import CityGallery from './components/CityGallery';
 
-function App() {
-  return (
-    <div className="App">
-      <Cards />
-      {/* <Slider/> */}
-    </div>
-  );
-}
+const App = () => (
+  <Router>
+    <Routes>
+      <Route path="/" element={<Cards />} />
+      <Route path="/city/:cityName" element={<CityGallery />} />
+    </Routes>
+  </Router>
+);
 
 export default App;

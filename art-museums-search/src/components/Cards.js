@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-// import Search from './Search';
+import { Link } from'react-router-dom';
 import '../style.css';
 
 
@@ -113,6 +113,7 @@ const Cards = () => {
 
   ];
 
+
   useEffect(() => {
     const flexCard = document.querySelectorAll('.card');
 
@@ -138,17 +139,17 @@ const Cards = () => {
     };
   }, []);
 
-
   return (
     <div className="cards">
       {cards.map((card) => (
-        <div
-          key={card.id}
-          className="card"
-          style={{ backgroundImage: `url(${card.imageUrl})` }}
-        >
-          {card.city}
-        </div>
+        <Link key={card.id} to={`/city/${card.city}`}>
+          <div
+            className="card"
+            style={{ backgroundImage: `url(${card.imageUrl})` }}
+          >
+            {card.city}
+          </div>
+        </Link>
       ))}
     </div>
   );
