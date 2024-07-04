@@ -10,10 +10,10 @@ const CityGallery = () => {
   const { cityName } = useParams();
   const navigate = useNavigate();
 
- const handleClick = () => {
-  console.log("Button clicked");
-  navigate("/");
-};
+  const handleClick = () => {
+    console.log("Button clicked");
+    navigate("/");
+  };
 
   const photos = [
     { id: 1, city: 'Rio', imageUrl: 'https://images.unsplash.com/photo-1585436249848-3a8210d46a47?q=80&w=1953&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc1' },
@@ -78,6 +78,16 @@ const CityGallery = () => {
     { id: 53, city: 'London', imageUrl: 'https://images.unsplash.com/photo-1526129318478-62ed807ebdf9?q=80&w=2292&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
     { id: 54, city: 'London', imageUrl: 'https://images.unsplash.com/photo-1597053100221-fee3c1dcb6ba?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
 
+    { id: 55, city: 'Morocco', imageUrl: 'https://images.unsplash.com/photo-1549140600-78c9b8275e9d?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 56, city: 'Morocco', imageUrl: 'https://images.unsplash.com/photo-1517573927281-aec54b2b885c?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 57, city: 'Morocco', imageUrl: 'https://images.unsplash.com/photo-1538519446176-2533d0b39099?q=80&w=2554&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 58, city: 'Morocco', imageUrl: 'https://images.unsplash.com/photo-1632782532013-bd3f5f9197db?q=80&w=1957&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 59, city: 'Morocco', imageUrl: 'https://images.unsplash.com/photo-1577744734917-e83c1380c32c?q=80&w=2526&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 60, city: 'Morocco', imageUrl: 'https://images.unsplash.com/photo-1559900071-1355e5e6211d?q=80&w=2535&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 61, city: 'Morocco', imageUrl: 'https://images.unsplash.com/photo-1550697318-929498858774?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 62, city: 'Morocco', imageUrl: 'https://images.unsplash.com/photo-1519915212116-7cfef71f1d3e?q=80&w=2379&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 63, city: 'Morocco', imageUrl: 'https://images.unsplash.com/photo-1559925523-10de9e23cf90?q=80&w=2564&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+
   ];
 
   const cityPhotos = photos.filter(photo => photo.city === cityName);
@@ -101,7 +111,7 @@ const CityGallery = () => {
           </div>
         ))}
       </Slider>
-       <button onClick={handleClick}>Back to Homepage</button>
+       <button onClick={handleClick}>Go to Home</button>
     </div>
   );
 };
