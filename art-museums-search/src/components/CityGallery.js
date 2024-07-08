@@ -88,6 +88,18 @@ const CityGallery = () => {
     { id: 62, city: 'Morocco', imageUrl: 'https://images.unsplash.com/photo-1519915212116-7cfef71f1d3e?q=80&w=2379&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
     { id: 63, city: 'Morocco', imageUrl: 'https://images.unsplash.com/photo-1559925523-10de9e23cf90?q=80&w=2564&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
 
+    { id: 64, city: 'Los Angeles', imageUrl: 'https://images.unsplash.com/photo-1605688915525-7be700812e9e?q=80&w=2432&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 65, city: 'Los Angeles', imageUrl: 'https://images.unsplash.com/photo-1514321648849-f4e1d5da98dc?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 66, city: 'Los Angeles', imageUrl: 'https://images.unsplash.com/photo-1556799317-80199d6ba59a?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 67, city: 'Los Angeles', imageUrl: 'https://images.unsplash.com/photo-1623912279015-d748d9cd8978?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 68, city: 'Los Angeles', imageUrl: 'https://images.unsplash.com/photo-1587654980578-e7e1a26f309b?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 69, city: 'Los Angeles', imageUrl: '', description: 'desc9' },
+    { id: 70, city: 'Los Angeles', imageUrl: '', description: 'desc9' },
+    { id: 71, city: 'Los Angeles', imageUrl: '', description: 'desc9' },
+    { id: 72, city: 'Los Angeles', imageUrl: '', description: 'desc9' },
+
+    
+
   ];
 
   const cityPhotos = photos.filter(photo => photo.city === cityName);
@@ -103,6 +115,7 @@ const CityGallery = () => {
 
   return (
     <div className="city-gallery">
+            <button onClick={handleClick}>Go to Home</button>
       <h1>{cityName}</h1>
       <Slider {...settings}>
         {cityPhotos.map(photo => (
@@ -111,7 +124,7 @@ const CityGallery = () => {
           </div>
         ))}
       </Slider>
-       <button onClick={handleClick}>Go to Home</button>
+
     </div>
   );
 };
