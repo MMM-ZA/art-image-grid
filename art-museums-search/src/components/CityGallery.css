@@ -25,7 +25,10 @@
 }
 
 .city-gallery button {
-  margin-left: 5rem;
+  margin-left: auto;
+  margin-right: 1.5rem; 
+  display: block;
+  
   font-size: 16px;
   font-weight: 200;
   letter-spacing: 1px;

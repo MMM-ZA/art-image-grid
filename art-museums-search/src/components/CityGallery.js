@@ -90,13 +90,28 @@ const CityGallery = () => {
 
     { id: 64, city: 'Los Angeles', imageUrl: 'https://images.unsplash.com/photo-1605688915525-7be700812e9e?q=80&w=2432&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
     { id: 65, city: 'Los Angeles', imageUrl: 'https://images.unsplash.com/photo-1514321648849-f4e1d5da98dc?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
-    { id: 66, city: 'Los Angeles', imageUrl: 'https://images.unsplash.com/photo-1556799317-80199d6ba59a?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 66, city: 'Los Angeles', imageUrl: 'https://images.unsplash.com/photo-1518790104582-412c1e2cf36f?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
     { id: 67, city: 'Los Angeles', imageUrl: 'https://images.unsplash.com/photo-1623912279015-d748d9cd8978?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
     { id: 68, city: 'Los Angeles', imageUrl: 'https://images.unsplash.com/photo-1587654980578-e7e1a26f309b?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
-    { id: 69, city: 'Los Angeles', imageUrl: '', description: 'desc9' },
-    { id: 70, city: 'Los Angeles', imageUrl: '', description: 'desc9' },
-    { id: 71, city: 'Los Angeles', imageUrl: '', description: 'desc9' },
-    { id: 72, city: 'Los Angeles', imageUrl: '', description: 'desc9' },
+    { id: 69, city: 'Los Angeles', imageUrl: 'https://images.unsplash.com/photo-1533157726070-bc55faa2a9cd?q=80&w=2535&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 70, city: 'Los Angeles', imageUrl: 'https://images.unsplash.com/photo-1573397286878-0ff40aa140cd?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 71, city: 'Los Angeles', imageUrl: 'https://images.unsplash.com/photo-1550807816-61cd93e82e86?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 72, city: 'Los Angeles', imageUrl: 'https://images.unsplash.com/photo-1583975647930-cf84bfe0efbe?q=80&w=2535&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+
+
+    { id: 73, city: 'Havana', imageUrl: 'https://images.unsplash.com/photo-1636506626471-ef6f36b599c9?q=80&w=2576&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 74, city: 'Havana', imageUrl: 'https://images.unsplash.com/photo-1602515677088-2643f5eabaa6?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 75, city: 'Havana', imageUrl: 'https://images.unsplash.com/photo-1584540502080-c5bf5749204e?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 76, city: 'Havana', imageUrl: 'https://images.unsplash.com/photo-1561994571-36afb0b11e3e?q=80&w=2535&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 77, city: 'Havana', imageUrl: 'https://images.unsplash.com/photo-1540076057611-7897ed27d363?q=80&w=2484&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 78, city: 'Havana', imageUrl: 'https://images.unsplash.com/photo-1518754744014-dcca006cd68f?q=80&w=2514&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 79, city: 'Havana', imageUrl: 'https://images.unsplash.com/photo-1583140104888-9960edb2fee8?q=80&w=2535&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 80, city: 'Havana', imageUrl: '', description: 'desc9' },
+    { id: 81, city: 'Havana', imageUrl: '', description: 'desc9' },
+
+
+
+    { id: 82, city: 'Havana', imageUrl: '', description: 'desc9' },
 
     
 
