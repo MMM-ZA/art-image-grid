@@ -105,14 +105,45 @@ const CityGallery = () => {
     { id: 76, city: 'Havana', imageUrl: 'https://images.unsplash.com/photo-1561994571-36afb0b11e3e?q=80&w=2535&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
     { id: 77, city: 'Havana', imageUrl: 'https://images.unsplash.com/photo-1540076057611-7897ed27d363?q=80&w=2484&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
     { id: 78, city: 'Havana', imageUrl: 'https://images.unsplash.com/photo-1518754744014-dcca006cd68f?q=80&w=2514&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
-    { id: 79, city: 'Havana', imageUrl: 'https://images.unsplash.com/photo-1583140104888-9960edb2fee8?q=80&w=2535&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
-    { id: 80, city: 'Havana', imageUrl: '', description: 'desc9' },
-    { id: 81, city: 'Havana', imageUrl: '', description: 'desc9' },
+    { id: 79, city: 'Havana', imageUrl: 'https://images.unsplash.com/photo-1583140104888-9960edb2fee8?q=80&w=2535&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90b1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 80, city: 'Havana', imageUrl: 'https://images.unsplash.com/photo-1476648626462-f43a67bb1f67?q=80&w=2674&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 81, city: 'Havana', imageUrl: 'https://images.unsplash.com/photo-1565115444795-9140be614d96?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
 
 
+    { id: 82, city: 'Bali', imageUrl: 'https://images.unsplash.com/photo-1522043686700-d3425bbc291c?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 83, city: 'Bali', imageUrl: 'https://images.unsplash.com/photo-1532186651327-6ac23687d189?q=80&w=2549&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 84, city: 'Bali', imageUrl: 'https://images.unsplash.com/photo-1666855559714-22a787963835?q=80&w=2572&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 85, city: 'Bali', imageUrl: 'https://images.unsplash.com/photo-1645699822985-5b3389ff5b58?q=80&w=2570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 86, city: 'Bali', imageUrl: 'https://images.unsplash.com/photo-1626354132373-d3d353e32128?q=80&w=2454&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 87, city: 'Bali', imageUrl: 'https://images.unsplash.com/photo-1607936954552-39bd0ae21dc2?q=80&w=2454&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 88, city: 'Bali', imageUrl: 'https://images.unsplash.com/photo-1612179042439-3d9c367d5a2b?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 89, city: 'Bali', imageUrl: 'https://images.unsplash.com/photo-1561638734-9389e37fed0b?q=80&w=2564&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 90, city: 'Bali', imageUrl: 'https://images.unsplash.com/photo-1616377009507-c8111f07aced?q=80&w=2562&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+ 
+    { id: 91, city: 'Evora', imageUrl: 'https://images.unsplash.com/photo-1508247687564-2289326346a2?q=80&w=2630&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 92, city: 'Evora', imageUrl: 'https://images.unsplash.com/photo-1662142063382-6ab46f1389ec?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 93, city: 'Evora', imageUrl: 'https://images.unsplash.com/photo-1655986406153-9c6ed2b85e2b?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 94, city: 'Evora', imageUrl: 'https://images.unsplash.com/photo-1570976855905-088ca13e95af?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 95, city: 'Evora', imageUrl: 'https://images.unsplash.com/photo-1614807254023-133d1a7a3c41?q=80&w=2430&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 96, city: 'Evora', imageUrl: 'https://images.unsplash.com/photo-1666963480036-fbfc2fc61f44?q=80&w=2605&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 97, city: 'Evora', imageUrl: 'https://images.unsplash.com/photo-1706991038224-2c4673b5c127?q=80&w=2438&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 98, city: 'Evora', imageUrl: 'https://images.unsplash.com/photo-1656937970513-d009f09642e3?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 99, city: 'Evora', imageUrl: 'https://images.unsplash.com/photo-1575043553312-5b6b956a6d9d?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
 
-    { id: 82, city: 'Havana', imageUrl: '', description: 'desc9' },
+    { id: 100, city: 'Lagos', imageUrl: 'https://images.unsplash.com/photo-1664737063290-e4eedfaa8c1e?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 101, city: 'Lagos', imageUrl: 'https://images.unsplash.com/photo-1526735334552-daff0bd6d53f?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 102, city: 'Lagos', imageUrl: 'https://images.unsplash.com/photo-1664737063396-54a86400f8be?q=80&w=2564&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 103, city: 'Lagos', imageUrl: 'https://images.unsplash.com/photo-1659622371074-5dff0c6c477c?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 104, city: 'Lagos', imageUrl: 'https://images.unsplash.com/photo-1579589014391-5495ed4ab3f7?q=80&w=2455&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 105, city: 'Lagos', imageUrl: 'https://images.unsplash.com/photo-1577259855408-c14a7b107540?q=80&w=2680&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 106, city: 'Lagos', imageUrl: 'https://images.unsplash.com/photo-1568903421626-ca0f5d72b5b2?q=80&w=2476&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 107, city: 'Lagos', imageUrl: 'https://images.unsplash.com/photo-1611235999587-002e1ad07886?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
+    { id: 108, city: 'Lagos', imageUrl: 'https://images.unsplash.com/photo-1590232071814-92dcbf0ed8cd?q=80&w=2563&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'desc9' },
 
+
+    { id: 109, city: 'Cairo', imageUrl: '', description: 'desc9' },
+  
+    
     
 
   ];
